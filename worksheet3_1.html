@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería 3D con Orientación del Dispositivo</title>
+    <link rel="stylesheet" href="worksheet3_1.css">
+</head>
+<body>
+
+    <header>
+        <h1>Galería de Imágenes con Orientación (3D) y Gestos (Hammer.js)</h1>
+        <p>Gira tu dispositivo para aplicar transformaciones 3D. Desliza para cambiar de imagen.</p>
+    </header>
+
+    <div id="gallery-container">
+        <button id="prev-btn" disabled>&lt; Anterior</button>
+        <div id="image-frame">
+            <img id="current-image" src="1.jpg" alt="Imagen de la Galería">
+        </div>
+        <button id="next-btn">Siguiente &gt;</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <script src="worksheet3_1.js"></script>
+</body>
+</html>
